@@ -1,0 +1,108 @@
+# NOTES
+# - This docker-compose.yml file is used to run 6 instances of ayamgoreng with 6 different roles
+# - 6 instances for each role (scale: 6)
+
+version: '3'
+
+# VERSI 2 dengan nama Container joki-ml-bang
+# services:
+#   mage:
+#     image: joki-ml-bang
+#     command: ["./ayamgoreng", "MAGE"]
+#     scale: 6
+
+#   fighter:
+#     image: joki-ml-bang
+#     command: ["./ayamgoreng", "FIGHTER"]
+#     scale: 6
+
+#   mm:
+#     image: joki-ml-bang
+#     command: ["./ayamgoreng", "MM"]
+#     scale: 6
+
+#   assassin:
+#     image: joki-ml-bang
+#     command: ["./ayamgoreng", "ASSASSIN"]
+#     scale: 6
+
+#   support:
+#     image: joki-ml-bang
+#     command: ["./ayamgoreng", "SUPPORT"]
+#     scale: 6
+  
+#   tank:
+#     image: joki-ml-bang
+#     command: ["./ayamgoreng", "TANK"]
+#     scale: 6
+
+# VERSI 1 dengan nama Container task-1
+services:
+  mage:
+    build:
+      context: . # use current directory
+      dockerfile: Dockerfile # use Dockerfile
+    command: ./ayamgoreng MAGE # run the container with MAGE argument
+    scale: 6 # 6 instances
+    # ports:
+    #   - "8081-8086:8080"
+    # deploy:
+    #   replicas: 6
+
+
+  fighter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./ayamgoreng FIGHTER
+    scale: 6 # 6 instances
+    # ports:
+    #   - "8087-8092:8080"
+    # deploy:
+    #   replicas: 6
+
+
+  tank:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./ayamgoreng TANK
+    scale: 6 # 6 instances
+    # ports:
+    #   - "8093-8098:8080"
+    # deploy:
+    #   replicas: 6
+
+  assassin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./ayamgoreng ASSASSIN
+    scale: 6 # 6 instances
+    # ports:
+    #   - "8099-8104:8080"
+    # deploy:
+    #   replicas: 6
+
+  support:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./ayamgoreng SUPPORT
+    scale: 6 # 6 instances
+    # ports:
+    #   - "8105-8110:8080"
+    # deploy:
+    #   replicas: 6
+
+
+  mm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./ayamgoreng MM
+    scale: 6 # 6 instances
+    # ports:
+    #   - "8111-8116:8080"
+    # deploy:
+    #   replicas: 6

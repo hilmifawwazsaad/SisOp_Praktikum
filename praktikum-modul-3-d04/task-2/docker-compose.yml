@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nsdan:
+    container_name: nsdan
+    image: imageabc
+    command: commandabc
+    volumes:
+      - voluemabac

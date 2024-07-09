@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  shaniz696969:
+    build:
+      context: .  # Make sure the context is set if the Dockerfile is in the same directory as docker-compose.yml
+      dockerfile: Dockerfile
+    ports:
+      - "9090:8000"  # Changed to match the internal port used by Laravel
+    environment:
+      APP_ENV: local
+      APP_DEBUG: true
+      APP_URL: http://localhost:9090
+      DB_CONNECTION: mysql
+      DB_HOST: db-shaniz
+      DB_PORT: 3306
+      DB_DATABASE: keyisa
+      DB_USERNAME: root
+      DB_PASSWORD: my-secret-pw
+    depends_on:
+      - db-shaniz
+    networks:
+      - shani-net
+
+  db-shaniz:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: keyisa
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    ports:
+      - "3306:3306"
+    networks:
+      - shani-net
+
+networks:
+  shani-net:
+    driver: bridge
