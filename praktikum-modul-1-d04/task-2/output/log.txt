@@ -1,0 +1,18 @@
+Nama dan password ditemukan: NUR FTIRS0029119304
+Nama atau password gada: NUR FTIRS002911930
+03/22/2024 01:51:42
+Nama dan password ditemukan: NUR FTIRS0029119304
+03/22/2024 01:54:53 LOGIN: SUCCESS NUR is logged in
+LOGIN: SUCCESS NUR is logged in
+03/22/2024 02:05:53 LOGIN: SUCCESS NUR is logged in
+03/22/2024 02:06:27 LOGIN: SUCCESS NUR is logged in
+
+03/22/2024 17:52:24 REGISTER: ERROR Fisika already existed
+03/22/2024 17:52:51 REGISTER: ERROR Fisika already existed
+03/27/2024 21:37:53 LOGIN: SUCCESS NUR is logged in
+03/27/2024 21:39:16 LOGIN: ERROR Failed login attempt on 
+03/27/2024 21:42:53 REGISTER: ERROR Fisika already existed
+03/30/2024 14:12:35 LOGIN: SUCCESS NUR is logged in
+03/30/2024 14:14:30 LOGIN: ERROR Failed login attempt on 
+03/30/2024 14:23:40 REGISTER: ERROR Ahmad_Sodik_Zainud, already existed
+03/30/2024 14:25:55 REGISTER: SUCCESS Ahmad_Aja, is registered. Proposal 500, is added
