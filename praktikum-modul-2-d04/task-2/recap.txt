@@ -1,0 +1,30 @@
+[2024-04-21 22:57:00]-[Yuan] Task 0 completed, download 1 music images with 300x300 resolution
+[2024-04-21 22:57:01]-[Yuan] Task 1 completed, download 1 nature images with 200x150 resolution
+[2024-04-21 22:57:04]-[Bubu] Task 19 completed, download 4 city images with 250x300 resolution
+[2024-04-21 22:57:06]-[Bubu] Task 18 completed, download 1 nature images with 250x150 resolution
+[2024-04-21 22:57:07]-[Bubu] Task 17 completed, download 1 minimalist images with 150x250 resolution
+[2024-04-21 22:57:08]-[Yuan] Task 2 completed, download 4 night images with 200x150 resolution
+[2024-04-21 22:57:10]-[Yuan] Task 3 completed, download 1 fruit images with 200x150 resolution
+[2024-04-21 22:57:13]-[Bubu] Task 16 completed, download 3 face images with 250x150 resolution
+[2024-04-21 22:57:14]-[Yuan] Task 4 completed, download 3 night images with 300x250 resolution
+[2024-04-21 22:57:25]-[Yuan] Task 5 completed, download 5 music images with 250x150 resolution
+[2024-04-21 22:57:28]-[Bubu] Task 15 completed, download 4 city images with 200x200 resolution
+[2024-04-21 22:57:36]-[Bubu] Task 14 completed, download 4 summer images with 250x200 resolution
+[2024-04-21 22:57:39]-[Bubu] Task 13 completed, download 2 face images with 150x200 resolution
+[2024-04-21 22:57:44]-[Bubu] Task 12 completed, download 3 minimalist images with 100x250 resolution
+[2024-04-21 22:57:47]-[Yuan] Task 6 completed, download 5 minimalist images with 300x100 resolution
+[2024-04-21 22:57:54]-[Yuan] Task 7 completed, download 5 fruit images with 200x250 resolution
+[2024-04-21 22:58:01]-[Yuan] Task 8 completed, download 4 fruit images with 200x300 resolution
+[2024-04-21 22:58:02]-[Bubu] Task 11 completed, download 2 fruit images with 150x250 resolution
+[2024-04-21 22:58:08]-[Bubu] Task 10 completed, download 3 nature images with 300x200 resolution
+[2024-04-21 22:58:29]-[Yuan] Task 9 completed, download 4 summer images with 200x250 resolution
+
+nature: 5 images
+night: 7 images
+fruit: 12 images
+music: 6 images
+city: 8 images
+summer: 8 images
+minimalist: 9 images
+face: 5 images
+total images: 60 images

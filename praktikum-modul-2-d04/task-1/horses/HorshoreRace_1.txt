@@ -1,0 +1,6 @@
+----Horse Race (1)----
+Date: 21/04/2024
+Time: 19:22:59
+1.   367
+2. -1/horses/HorseRace_1.txt 3 509
+3.  3 3011
